@@ -1,8 +1,24 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "User Page Story 1",
+      "isDefault": false
+    },
+    {
+      "id": "User Page Story 2",
+      "isDefault": false
+    },
+    {
+      "id": "Health Expert Story 1",
+      "isDefault": false
+    },
+    {
+      "id": "Health Expert Story 3",
+      "isDefault": false
     }
   ],
   "viewMode": false,
