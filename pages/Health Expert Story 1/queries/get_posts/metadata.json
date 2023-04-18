@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "remove_post",
+    "name": "get_posts",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/h/nutritionaladviceposts/{{author_id}}/{{post_id}}"
+        "url": "web:4000/h/nutritionaladviceposts"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Health Expert Story 3",
+    "pageId": "Health Expert Story 1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,8 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
       "bodyFormData": [],
-      "httpMethod": "DELETE",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -39,28 +38,21 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "datasourceUrl"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "author_id",
-      "post_id"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Health Expert Story 3_remove_post",
+  "id": "Health Expert Story 1_get_posts",
   "deleted": false,
-  "gitSyncId": "643d9b732f81ba145557c5be_643da0d62f81ba145557c5de"
+  "gitSyncId": "643d9b732f81ba145557c5be_643d9e732f81ba145557c5d2"
 }
