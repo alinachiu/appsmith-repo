@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/h/mealplans/{{user_id}}/{{meal_plan_id}}"
+        "url": "web:4000/h/mealplans/{{select_post.selectedOptionValue}}"
       },
       "invalids": [],
       "messages": [],
@@ -52,8 +52,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "meal_plan_id",
-      "user_id"
+      "select_post.selectedOptionValue"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

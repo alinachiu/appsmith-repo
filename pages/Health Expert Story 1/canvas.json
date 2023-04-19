@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1270,
+          "bottomRow": 1330,
           "containerStyle": "none",
           "snapRows": 74,
           "parentRowSpace": 1,
@@ -25,6 +25,62 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
+            {
+              "widgetName": "expert_id",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 129,
+              "bottomRow": 133,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "78200",
+              "key": "s52aom7hia",
+              "isDeprecated": false,
+              "rightColumn": 17,
+              "textAlign": "LEFT",
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "00fnk7gl48",
+              "minWidth": 450,
+              "isVisible": false,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 136,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 140,
+              "fontSize": "1rem",
+              "minDynamicHeight": 4
+            },
             {
               "widgetName": "Title",
               "displayName": "Text",
@@ -921,8 +977,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 86,
-              "bottomRow": 117,
+              "topRow": 87,
+              "bottomRow": 118,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -1185,7 +1241,7 @@
                       "type": "SELECT_WIDGET",
                       "serverSideFiltering": false,
                       "hideCard": false,
-                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `{ \"label\": \"My favorite fruits packed with nutrients\", \"value\": 15838 }`))(post_id.options, post_id.serverSideFiltering) }}",
+                      "defaultOptionValue": "",
                       "animateLoading": true,
                       "parentColumnSpace": 8.4365234375,
                       "dynamicTriggerPathList": [
@@ -1203,9 +1259,6 @@
                         },
                         {
                           "key": "options"
-                        },
-                        {
-                          "key": "defaultOptionValue"
                         }
                       ],
                       "labelPosition": "Top",
@@ -1266,10 +1319,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 86,
+              "originalTopRow": 87,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 117,
+              "originalBottomRow": 118,
               "minDynamicHeight": 10
             },
             {
@@ -1626,28 +1679,71 @@
               "minDynamicHeight": 4
             },
             {
-              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "currentItemsView": "{{[]}}",
-              "triggeredItemView": "{{{}}}",
-              "widgetName": "List1",
-              "requiresFlatWidgetChildren": true,
-              "listData": "{{ !post_id.selectedOptionValue ? get_author_posts.data : get_specific_post.data}}",
-              "isCanvas": true,
-              "displayName": "List",
-              "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
-              "topRow": 87,
-              "bottomRow": 127,
-              "pageSize": 1,
+              "widgetName": "Text5Copy",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 83,
+              "bottomRow": 87,
               "parentRowSpace": 10,
-              "type": "LIST_WIDGET_V2",
-              "itemSpacing": 8,
+              "type": "TEXT_WIDGET",
               "hideCard": false,
-              "templateBottomRow": 16,
-              "mainContainerId": "z6l6j1cxua",
               "animateLoading": true,
-              "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
               "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "Post Preview",
+              "key": "s52aom7hia",
+              "isDeprecated": false,
+              "rightColumn": 21,
+              "textAlign": "LEFT",
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "wyc2vmlag6",
+              "minWidth": 450,
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 83,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 87,
+              "fontSize": "1.25rem",
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "requiresFlatWidgetChildren": true,
+              "isCanvas": true,
+              "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
+              "topRow": 87,
+              "pageSize": 1,
+              "type": "LIST_WIDGET_V2",
+              "itemSpacing": 8,
+              "animateLoading": true,
               "dynamicBindingPathList": [
                 {
                   "key": "currentItemsView"
@@ -1675,7 +1771,6 @@
                 }
               ],
               "leftColumn": 1,
-              "gridType": "vertical",
               "enhancements": true,
               "children": [
                 {
@@ -2025,22 +2120,12 @@
                   "flexLayers": []
                 }
               ],
-              "positioning": "fixed",
-              "key": "czx1uhgy0j",
-              "backgroundColor": "transparent",
-              "isDeprecated": false,
-              "rightColumn": 28,
               "itemBackgroundColor": "#FFFFFF",
-              "widgetId": "pltdy6p5p2",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
-              "parentId": "0",
               "hasMetaWidgets": true,
-              "renderMode": "CANVAS",
               "isLoading": false,
-              "responsiveBehavior": "fill",
               "mainCanvasId": "k04xlfjfwu",
-              "originalTopRow": 87,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "originalBottomRow": 127,
               "additionalStaticProps": [
@@ -2049,6 +2134,31 @@
                 "prefixMetaWidgetId",
                 "metaWidgetId"
               ],
+              "currentItemsView": "{{[]}}",
+              "triggeredItemView": "{{{}}}",
+              "widgetName": "List1",
+              "listData": "{{get_specific_post.data}}",
+              "displayName": "List",
+              "bottomRow": 127,
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "templateBottomRow": 16,
+              "mainContainerId": "z6l6j1cxua",
+              "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+              "parentColumnSpace": 18.0625,
+              "dynamicTriggerPathList": [],
+              "gridType": "vertical",
+              "defaultSelectedItem": "15838",
+              "positioning": "fixed",
+              "key": "czx1uhgy0j",
+              "backgroundColor": "transparent",
+              "isDeprecated": false,
+              "rightColumn": 28,
+              "widgetId": "pltdy6p5p2",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "responsiveBehavior": "fill",
+              "originalTopRow": 87,
               "selectedItemView": "{{{}}}"
             }
           ]
@@ -2060,16 +2170,8 @@
               "name": "get_author_posts",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Health Expert Story 1_get_specific_post",
-              "name": "get_specific_post",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
               "jsonPathKeys": [
-                "post_id.selectedOptionValue"
+                "expert_id.text"
               ],
               "timeoutInMillisecond": 10000
             }

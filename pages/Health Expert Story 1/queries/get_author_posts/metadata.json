@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/h/nutritionaladviceposts/78200"
+        "url": "web:4000/h/nutritionaladviceposts/{{expert_id.text}}"
       },
       "invalids": [],
       "messages": [],
@@ -45,7 +45,9 @@
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "expert_id.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
