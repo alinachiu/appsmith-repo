@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "User Page Story 2",
-    "slug": "user-page-story-2",
+    "name": "User Page Story 3",
+    "slug": "user-page-story-3",
     "layouts": [
       {
         "viewMode": false,
@@ -58,13 +58,13 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Professional Boxer Story #2",
+              "text": "Professional Boxer Story #3",
               "key": "jkaa9bei3o",
               "isDeprecated": false,
               "rightColumn": 64,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "orms1h6rd4",
+              "widgetId": "dryniobkje",
               "minWidth": 450,
               "isVisible": true,
               "fontStyle": "BOLD",
@@ -114,13 +114,13 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "As someone with little understanding of nutrition and the nutritional value of different ingredients and meals, Anthony wants to be able to easily track and assess his current diet to make suitable changes moving forward via user goals.",
+              "text": "As someone with limited cooking experience, Anthony would like to have a variety of personalized meal plans with flexible dates he can follow to achieve his daily nutritional goals.",
               "key": "jkaa9bei3o",
               "isDeprecated": false,
               "rightColumn": 64,
               "textAlign": "LEFT",
               "dynamicHeight": "AUTO_HEIGHT",
-              "widgetId": "wveuwwrjst",
+              "widgetId": "h63stsyi9f",
               "minWidth": 450,
               "isVisible": true,
               "fontStyle": "",
@@ -142,7 +142,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "User Page Story 2",
+        "id": "User Page Story 3",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -153,5 +153,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "643d9b732f81ba145557c5be_643d9be32f81ba145557c5c5"
+  "gitSyncId": "643d9b732f81ba145557c5be_643d9c1b2f81ba145557c5c8"
 }
