@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "User Page Story 3",
-    "slug": "user-page-story-3",
+    "name": "User Page Story 1",
+    "slug": "user-page-story-1",
     "layouts": [
       {
         "viewMode": false,
@@ -58,7 +58,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "Professional Boxer Story #3",
+              "text": "Professional Boxer Story #1",
               "key": "jkaa9bei3o",
               "isDeprecated": false,
               "rightColumn": 64,
@@ -114,7 +114,7 @@
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "text": "As someone with limited cooking experience, Anthony would like to have a variety of personalized meal plans with flexible dates he can follow to achieve his daily nutritional goals.",
+              "text": "As a professional athlete, Anthony Jones wants and needs high-protein and low carb/sugar meals to best train and prepare for his next opponent by filtering recipes with dietary restrictions or ingredients",
               "key": "jkaa9bei3o",
               "isDeprecated": false,
               "rightColumn": 64,
@@ -142,7 +142,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "User Page Story 3",
+        "id": "User Page Story 1",
         "deleted": false,
         "policies": [],
         "userPermissions": []
