@@ -1232,7 +1232,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 14,
-                      "onOptionChange": "{{get_specific_post.run()}}",
+                      "onOptionChange": "{{get_specific_post.run(() => {}, () => copyToClipboard())}}",
                       "minDynamicHeight": 4
                     }
                   ],
@@ -1631,7 +1631,7 @@
               "triggeredItemView": "{{{}}}",
               "widgetName": "List1",
               "requiresFlatWidgetChildren": true,
-              "listData": "{{get_specific_post.data}}",
+              "listData": "{{ !post_id.selectedOptionValue ? get_author_posts.data : get_specific_post.data}}",
               "isCanvas": true,
               "displayName": "List",
               "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
@@ -1946,7 +1946,7 @@
                               "leftColumn": 1,
                               "shouldTruncate": false,
                               "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "text": "Posted: {{currentItem.date_posted}}",
+                              "text": "Posted: {{!currentItem  ? currentItem.date_posted : \"\"}}",
                               "key": "s52aom7hia",
                               "isDeprecated": false,
                               "rightColumn": 47,
