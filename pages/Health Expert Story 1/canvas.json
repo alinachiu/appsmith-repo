@@ -1185,7 +1185,7 @@
                       "type": "SELECT_WIDGET",
                       "serverSideFiltering": false,
                       "hideCard": false,
-                      "defaultOptionValue": "",
+                      "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( `{ \"label\": \"My favorite fruits packed with nutrients\", \"value\": 15838 }`))(post_id.options, post_id.serverSideFiltering) }}",
                       "animateLoading": true,
                       "parentColumnSpace": 8.4365234375,
                       "dynamicTriggerPathList": [
@@ -1203,6 +1203,9 @@
                         },
                         {
                           "key": "options"
+                        },
+                        {
+                          "key": "defaultOptionValue"
                         }
                       ],
                       "labelPosition": "Top",
