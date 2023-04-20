@@ -454,7 +454,7 @@
               "isLoading": false,
               "mainCanvasId": "gdb0oux8l9",
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 56,
+              "originalBottomRow": 57,
               "additionalStaticProps": [
                 "level",
                 "levelData",
@@ -568,7 +568,7 @@
                       "text": "Dietary Restriction",
                       "key": "x637g2d9zs",
                       "isDeprecated": false,
-                      "rightColumn": 58,
+                      "rightColumn": 64,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "86livwhjvn",
@@ -584,7 +584,7 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 9,
+                      "originalBottomRow": 7,
                       "fontSize": "1.25rem",
                       "minDynamicHeight": 4
                     },
@@ -645,8 +645,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "fill",
+                      "originalTopRow": 9,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
+                      "originalBottomRow": 18,
                       "onOptionChange": "{{get_restriction_recipe.run(() => {}, () => copyToClipboard())}}",
                       "minDynamicHeight": 4
                     }
@@ -684,7 +686,7 @@
               "originalTopRow": 16,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 34,
+              "originalBottomRow": 36,
               "minDynamicHeight": 10
             }
           ]
