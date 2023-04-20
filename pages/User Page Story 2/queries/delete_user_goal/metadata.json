@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "/usergoals/{{user_id.text}}/{{goal_id1.selectedOptionValue}}"
+        "url": "web:4000/u/usergoals/{{user_id.text}}/{{goal_id1.selectedOptionValue}}"
       },
       "invalids": [],
       "messages": [],

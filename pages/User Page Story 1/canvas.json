@@ -1354,18 +1354,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "User Page Story 1_get_ingredient_recipe",
-              "name": "get_ingredient_recipe",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "ingredient_id.selectedOptionValue"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "User Page Story 1_get_ingredients",
               "name": "get_ingredients",
               "confirmBeforeExecute": false,
