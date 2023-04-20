@@ -704,7 +704,7 @@
               ],
               "currentItemsView": "{{[]}}",
               "triggeredItemView": "{{{}}}",
-              "widgetName": "rebeccas_meal_plans",
+              "widgetName": "anthonys_goals",
               "listData": "{{get_all_user_goals.data}}",
               "displayName": "List",
               "bottomRow": 76,
@@ -712,7 +712,7 @@
               "hideCard": false,
               "templateBottomRow": 16,
               "mainContainerId": "afoaofvjn1",
-              "primaryKeys": "{{rebeccas_meal_plans.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+              "primaryKeys": "{{anthonys_goals.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
               "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [
                 {
