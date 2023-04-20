@@ -274,7 +274,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Create New User Goal",
+                      "text": "Create New User Goal ",
                       "key": "1fi854ueat",
                       "isDeprecated": false,
                       "rightColumn": 64,
