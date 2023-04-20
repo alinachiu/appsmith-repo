@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_restriction_recipe",
+    "name": "get_ingredients",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/u/recipesrestriction/{{restriction_id.selectedOptionValue}}"
+        "url": "web:4000/u/recipesingredient"
       },
       "invalids": [],
       "messages": [],
@@ -36,24 +36,18 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "datasourceUrl"
-      }
-    ],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "restriction_id.selectedOptionValue"
-    ],
-    "userSetOnLoad": true,
+    "jsonPathKeys": [],
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "User Page Story 1_get_restriction_recipe",
+  "id": "User Page Story 1_get_ingredients",
   "deleted": false,
-  "gitSyncId": "644067ce8c233c641bab574f_644070dc8c233c641bab576c"
+  "gitSyncId": "643d9b732f81ba145557c5be_64408934f535f81f1af322d0"
 }
